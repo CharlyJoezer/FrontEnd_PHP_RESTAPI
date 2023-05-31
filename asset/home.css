@@ -9,3 +9,33 @@
     border-bottom: 1px solid #ccc;
     padding: 15px 10px;
 }
+.list-product{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px 5px;
+}
+.box-product{
+    width: 20%;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc;
+    cursor: pointer;
+    margin: 5px 5px;
+}
+.product-header img{
+    width: 100%;
+    box-sizing: border-box;
+}
+.product-desc{
+    padding: 3px;
+}
+.product-name {
+    font-size: 14px;
+}
+.product-price {
+    font-size: 13.5px;
+    font-weight: 600;
+    color: rgb(0, 130, 170);
+}
