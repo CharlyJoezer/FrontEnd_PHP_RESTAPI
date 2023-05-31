@@ -39,3 +39,21 @@
     font-weight: 600;
     color: rgb(0, 130, 170);
 }
+.store-product{
+    padding: 5px 10px;
+}
+.input-form {
+    margin-bottom: 5px;
+}
+.input-form input {
+    padding: 5px 8px;
+    border-radius: 25px;
+}
+.send-button {
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(9, 148, 148);
+    width: fit-content;
+    padding: 5px 5px;
+}
